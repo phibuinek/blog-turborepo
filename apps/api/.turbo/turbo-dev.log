@@ -2,12 +2,379 @@
 > api@0.0.1 dev
 > nest start --watch
 
-[2J[3J[H[[90m4:46:03 PM[0m] Starting compilation in watch mode...
+[2J[3J[H[[90m2:09:07 PM[0m] Starting compilation in watch mode...
 
-[[90m4:46:05 PM[0m] Found 0 errors. Watching for file changes.
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
 
-[32m[Nest] 127188  - [39m09/26/2025, 4:46:05 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
-[32m[Nest] 127188  - [39m09/26/2025, 4:46:05 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +10ms[39m
-[32m[Nest] 127188  - [39m09/26/2025, 4:46:05 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
-[32m[Nest] 127188  - [39m09/26/2025, 4:46:05 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
-[32m[Nest] 127188  - [39m09/26/2025, 4:46:05 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m12[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m12[0m   @Field(() => Post)
+[7m  [0m [91m               ~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m13[0m   post: Post;
+[7m  [0m [91m        ~~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m34[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m34[0m   @Field(() => [Tag])
+[7m  [0m [91m                ~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m35[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m35[0m   tags: Tag[];
+[7m  [0m [91m        ~~~[0m
+
+[[90m2:09:09 PM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m2:10:44 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m12[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m12[0m   @Field(() => Post)
+[7m  [0m [91m               ~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m13[0m   post: Post;
+[7m  [0m [91m        ~~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m34[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m34[0m   @Field(() => [Tag])
+[7m  [0m [91m                ~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m35[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m35[0m   tags: Tag[];
+[7m  [0m [91m        ~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m4[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TagResolver'.
+
+[7m4[0m   providers: [TagResolver, TagService],
+[7m [0m [91m              ~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TagService'.
+
+[7m4[0m   providers: [TagResolver, TagService],
+[7m [0m [91m                           ~~~~~~~~~~[0m
+
+[[90m2:10:45 PM[0m] Found 7 errors. Watching for file changes.
+
+[2J[3J[H[[90m2:10:48 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m12[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m12[0m   @Field(() => Post)
+[7m  [0m [91m               ~~~~[0m
+
+[96msrc/like/entities/like.entity.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Post'.
+
+[7m13[0m   post: Post;
+[7m  [0m [91m        ~~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m34[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m34[0m   @Field(() => [Tag])
+[7m  [0m [91m                ~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m35[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m35[0m   tags: Tag[];
+[7m  [0m [91m        ~~~[0m
+
+[[90m2:10:48 PM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m2:11:06 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m34[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m34[0m   @Field(() => [Tag])
+[7m  [0m [91m                ~~~[0m
+
+[96msrc/post/entities/post.entity.ts[0m:[93m35[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Tag'.
+
+[7m35[0m   tags: Tag[];
+[7m  [0m [91m        ~~~[0m
+
+[[90m2:11:07 PM[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m2:11:16 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[[90m2:11:16 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m2:11:36 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment, CommentEntity } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[[90m2:11:36 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m2:11:39 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:11:39 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +25ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 28944  - [39m09/27/2025, 2:11:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:11
+  @Mutation(() => Comment)
+                  ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:11:19)
+    at Object.typeFn (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\utils\reflection.utilts.js:54:33)
+    at D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:36:76
+    at Array.forEach (<anonymous>)
+    at RootTypeFactory.generateFields (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:35:14)
+    at fieldsFactory (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:19:101)
+    at RootTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:28:21)
+    at MutationTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\mutation-type.factory.js:15:37)
+    at GraphQLSchemaFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\graphql-schema.factory.js:39:48)
+    at GraphQLSchemaBuilder.generateSchema (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\graphql-schema.builder.js:38:52)
+
+Node.js v20.14.0
+[2J[3J[H[[90m2:12:06 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:12:06 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 36296  - [39m09/27/2025, 2:12:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:28
+  @Mutation(() => Comment)
+                  ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:28:19)
+    at Object.typeFn (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\utils\reflection.utilts.js:54:33)
+    at D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:36:76
+    at Array.forEach (<anonymous>)
+    at RootTypeFactory.generateFields (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:35:14)
+    at fieldsFactory (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:19:101)
+    at RootTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:28:21)
+    at MutationTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\mutation-type.factory.js:15:37)
+    at GraphQLSchemaFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\graphql-schema.factory.js:39:48)
+    at GraphQLSchemaBuilder.generateSchema (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\graphql-schema.builder.js:38:52)
+
+Node.js v20.14.0
+[2J[3J[H[[90m2:12:07 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:12:07 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 31016  - [39m09/27/2025, 2:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:28
+  @Mutation(() => Comment)
+                  ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:28:19)
+    at Object.typeFn (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\utils\reflection.utilts.js:54:33)
+    at D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:36:76
+    at Array.forEach (<anonymous>)
+    at RootTypeFactory.generateFields (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:35:14)
+    at fieldsFactory (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:19:101)
+    at RootTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:28:21)
+    at MutationTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\mutation-type.factory.js:15:37)
+    at GraphQLSchemaFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\graphql-schema.factory.js:39:48)
+    at GraphQLSchemaBuilder.generateSchema (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\graphql-schema.builder.js:38:52)
+
+Node.js v20.14.0
+[2J[3J[H[[90m2:12:10 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:12:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 22900  - [39m09/27/2025, 2:12:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:38
+  @Mutation(() => Comment)
+                  ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (D:\workspace\blog-turborepo\apps\api\src\comment\comment.resolver.ts:38:19)
+    at Object.typeFn (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\utils\reflection.utilts.js:54:33)
+    at D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:36:76
+    at Array.forEach (<anonymous>)
+    at RootTypeFactory.generateFields (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:35:14)
+    at fieldsFactory (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:19:101)
+    at RootTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\root-type.factory.js:28:21)
+    at MutationTypeFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\factories\mutation-type.factory.js:15:37)
+    at GraphQLSchemaFactory.create (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\schema-builder\graphql-schema.factory.js:39:48)
+    at GraphQLSchemaBuilder.generateSchema (D:\workspace\blog-turborepo\node_modules\@nestjs\graphql\dist\graphql-schema.builder.js:38:52)
+
+Node.js v20.14.0
+[2J[3J[H[[90m2:12:11 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:12:11 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +78ms[39m
+[32m[Nest] 5788  - [39m09/27/2025, 2:12:12 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[2J[3J[H[[90m2:13:43 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:13:43 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +59ms[39m
+[32m[Nest] 11400  - [39m09/27/2025, 2:13:43 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:13:47 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:13:47 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +21ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +69ms[39m
+[32m[Nest] 7140  - [39m09/27/2025, 2:13:48 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[2J[3J[H[[90m2:13:55 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:13:55 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +52ms[39m
+[32m[Nest] 27244  - [39m09/27/2025, 2:13:56 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m2:14:14 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:14:14 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +53ms[39m
+[32m[Nest] 36324  - [39m09/27/2025, 2:14:14 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m2:14:22 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:14:22 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 9212  - [39m09/27/2025, 2:14:23 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
