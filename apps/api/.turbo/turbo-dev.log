@@ -2,24 +2,29 @@
 > api@0.0.1 dev
 > nest start --watch
 
-[2J[3J[H[[90m1:19:38 PM[0m] Starting compilation in watch mode...
+[2J[3J[H[[90m1:46:34 PM[0m] Starting compilation in watch mode...
 
-[[90m1:19:41 PM[0m] Found 0 errors. Watching for file changes.
+[[90m1:46:38 PM[0m] Found 0 errors. Watching for file changes.
 
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +17ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +1ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +16ms[39m
-[32m[Nest] 60872  - [39m10/02/2025, 1:19:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +29ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +25ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +70ms[39m
+[32m[Nest] 49828  - [39m10/03/2025, 1:46:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+{ user: undefined }
+{ user: undefined }
+{ user: undefined }

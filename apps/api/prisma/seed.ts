@@ -29,7 +29,7 @@ async function main() {
       title,
       slug: generateSlug(title),
       content: faker.lorem.paragraph(3),
-      thumbnail: faker.image.urlLoremFlickr(),
+      thumbnail: faker.image.urlPicsumPhotos(),
       authorId: faker.number.int({ min: 1, max: 10 }),
       published: true,
     };
